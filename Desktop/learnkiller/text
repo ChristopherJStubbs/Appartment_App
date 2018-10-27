@@ -1,0 +1,127 @@
+Soo...#{@name}. You arrive one Friday morning in mid October. The air is crisp on your skin. You fumble with your phone to open the J ST. single door and wait for Kisi to load. After what seems like an eternity, you are finally granted access. You enter the Hopper classroom when something seems wrong.
+
+You swing open the heavy Hopper door to find #{victim} dead on the floor.
+
+You see something lying next to 's lifeless corpse. What is it?
+
+In a state of shock you decide to...
+
+(This is the SCREAM option)
+
+  #{@name} screams. Upon hearing the blood-curdling scream, he runs out of the room.
+
+  "What happened!? What's wrong!? Who ded!?" #{@murderer1} yells walking up to him.
+  #{@name} then explains what he found to #{@murderer1}.
+
+  (Weapon list one)
+
+      #{@name} thinks #{@murderer1} seems rather suspicious.
+
+      "What were you doing here so early?" #{@name} asks.
+
+      "I...I... had to..um.. change the kombucha keg." #{@murderer1} stutters.
+
+      Do you believe her?
+
+      (This is option NO)
+
+      End game. #{@murderer1} killed you.
+
+      (This is option YES)
+
+      "Oh, finally! The kombucha keg has been empty all week!" #{@name} stated. "Let's find out who could've done this."
+
+      #{@name} and #{@murderer1} go back in the room and begin to look around for more clues. They followed a set of bloody footprints leading to the bathroom.
+
+      Do you want to go into the bathroom?
+
+      (This is option NO bathroom)
+
+      End game. #{@murderer1} stabs you from behind.
+
+      (This is option YES bathroom)
+
+      End game. #{@murderer1} shoves your head in the toilet and gives you a swirly. You're dead.
+
+  (Weapon list two)
+
+      #{@murderer1} says that she saw someone come out of the Hopper classroom earlier that morning holding {weapon}.
+
+      "Who was it?" #{@name} asks.
+
+      "I could tell you... for a price..." #{@murderer1} replies. "I want $14,000 with a $500 non-refundable deposit."
+
+      Do you pay up?
+
+      (Option NO)
+
+      #{@murderer1} kills you. You ded.
+
+      (Option YES)
+
+      #{@name} hands over his life savings to #{@murderer1}. She takes your money and runs.
+
+      You are left alive, but broke. Game over.
+
+  (Weapon list three)
+
+      "What are you talking about? The LEARN academy is the safest place on earth," #{@murderer1} says.
+
+      They both go into the classroom, and to #{@name}'s shock the body and the murder weapon are missing!
+
+      What do you do?
+
+      (Option FUGGET about it)
+
+      (do same thing as learn challenges)
+
+      (Option insist that you saw something)
+
+      "I know that I saw #{victim}'s dead body here next to {weapon}!" cried #{@name}. "It was right here in front of the white board!"
+
+      "You crazy," says #{@murderer1}. "I haven't seen anyone here all morning, except for #{murderer2}."
+
+      "#{murderer2}?" #{@name} thinks to himself. "He loves {weapon}!"
+
+      "It had to have been #{murderer2}!" #{@name} tells #{@murderer1}. "He loves {weapon}!"
+
+      The two begin searching for him, but their search brings them to the staircase.
+
+      What do you want to do?
+
+      (Go Upstairs)
+
+      #{murderer2} was waiting for you. You ded.
+
+      (Option FUGGET about it)
+
+      (do same thing as learn challenges)
+
+
+(This is the LEARN option)
+
+  #{@name} goes to his station to pull up the LEARN site. The challenge for the day is to perform a math function of 1+2 in Ruby.
+
+  Can you add 1 + 2 in Ruby? Y/N
+
+  (OPTION YES)
+    irb: 1 + 2 = {1+2}
+
+    Good job, #{@name}!
+
+    #{@name} decides to do the stretch goal. He starts to read it aloud:
+
+    "I have buttons but I’m not a shirt,
+    I have doors but I’m not a house,
+    I go up and down but I’m not an umbrella,
+    I need at least two stories but I’m not a book of fairytales,
+    I’m found in tall buildings but I’m not a penthouse."
+
+    What am I?
+
+    (NO MATTER ANS)
+
+    It's the elevator challenge. You die from a migraine.
+
+  (OPTION NO)
+    Math has killed you. You ded.
