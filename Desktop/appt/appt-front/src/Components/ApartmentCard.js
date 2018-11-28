@@ -1,15 +1,42 @@
 import React, { Component } from 'react';
+import {
+  Col,
+  Button,
+  Grid,
+  PageHeader,
+  Row,
+  ListGroup,
+  ListGroupItem
+} from 'react-bootstrap'
 
 class ApartmentCard extends Component {
+
   render() {
-    let {address, city, zip, state} = this.props.info
+    console.log(this.props)
     return (
-      <main>
-        Apartment List
-          <div className="cardLayout">
-          {address}
-          </div>
-      </main>
+
+      <Grid>
+      <Row>
+        <Col xs={12}>
+          <ListGroup>
+          {this.props.apartments.map((apartment) =>{
+            return (
+              <ListGroupItem >
+                <h4>
+                  <span className='dog-name'>
+                    {apartment.address}
+                  </span>
+                  - <small className='apartment-age'>{apartment.city} </small>
+                </h4>
+              </ListGroupItem>
+            )
+          })}
+        </ListGroup>
+      </Col>
+    </Row>
+
+    </Grid>
+
     );
   }
 }

@@ -6,6 +6,12 @@ import Header from './Components/Header';
 import Home from './Pages/home';
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+      this.state = {
+        apartments: []
+      }
+  }
   render() {
     return (
       <div className="Main-Div">
@@ -13,7 +19,7 @@ class App extends Component {
         <div>
             <Router>
                 <Switch>
-                    <Route exact path='/apartments' component={Apartments} />
+                    <Route exact path='/apartments' render={(props) => <Apartments apartments={this.state.apartments}/>} />
                     <Route exact path='/home' component={Home} />
                     <Route exact path='/' component={Home} />
                 </Switch>

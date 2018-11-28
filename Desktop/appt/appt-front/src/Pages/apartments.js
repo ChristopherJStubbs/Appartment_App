@@ -18,14 +18,14 @@ class Apartments extends Component {
     }
   }
   render() {
-    let apartments = this.state.allApts.map((apartment) => {
-      return <ApartmentCard key={apartment.address} id={apartment.address} />
-    })
+    // let apartments = this.state.allApts.map((apartment) => {
+    //   return
+    // })
     return (
       <div className="Apartments-Div">
         <h1><center>Apartment List</center></h1>
           <div className="cardLayout">
-          {apartments}
+          <ApartmentCard apartments={this.state.allApts}/>
           </div>
       </div>
     );
